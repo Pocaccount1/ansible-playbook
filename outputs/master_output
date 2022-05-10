@@ -1,0 +1,50 @@
+{
+    "changed": true,
+    "instance_ids": [
+        "i-0e1e300712e9b7280"
+    ],
+    "instances": [
+        {
+            "id": "i-0e1e300712e9b7280",
+            "ami_launch_index": "0",
+            "private_ip": "172.31.6.45",
+            "private_dns_name": "ip-172-31-6-45.us-east-2.compute.internal",
+            "public_ip": "18.188.72.181",
+            "dns_name": "ec2-18-188-72-181.us-east-2.compute.amazonaws.com",
+            "public_dns_name": "ec2-18-188-72-181.us-east-2.compute.amazonaws.com",
+            "state_code": 16,
+            "architecture": "x86_64",
+            "image_id": "ami-0eea504f45ef7a8f7",
+            "key_name": "kubernetes-cluster-snap",
+            "placement": "us-east-2a",
+            "region": "us-east-2",
+            "kernel": null,
+            "ramdisk": null,
+            "launch_time": "2022-05-09T12:04:09.000Z",
+            "instance_type": "t2.micro",
+            "root_device_type": "ebs",
+            "root_device_name": "/dev/sda1",
+            "state": "running",
+            "hypervisor": "xen",
+            "tags": {
+                "name": "master",
+                "env": "test"
+            },
+            "groups": {
+                "sg-03963e97030b5add9": "launch-wizard-2"
+            },
+            "virtualization_type": "hvm",
+            "ebs_optimized": false,
+            "block_device_mapping": {
+                "/dev/sda1": {
+                    "status": "attached",
+                    "volume_id": "vol-06fbf6ecf7929d031",
+                    "delete_on_termination": true
+                }
+            },
+            "tenancy": "default"
+        }
+    ],
+    "tagged_instances": [],
+    "failed": false
+}
